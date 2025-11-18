@@ -8,6 +8,10 @@
     "release": false,
     "releaseName": "Release ${version}"
   },
+  "gitlab": {
+    "release": false,
+    "releaseName": "Release ${version}"
+  },
   "npm": {
     "publish": false
   },
