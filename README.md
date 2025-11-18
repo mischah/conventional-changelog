@@ -4,7 +4,7 @@ Interaktive Demo und Präsentation für Conventional Commits und automatisierte 
 
 ## Überblick
 
-Dieses Mono-Repo enthält eine vollständige Demo-Umgebung für ein Meetup über Conventional Commits und automatisierte Changelog-Generierung.
+Dieses Mono-Repo enthält eine vollständige Demo-Umgebung für den Webmontag über Conventional Commits und automatisierte Changelog-Generierung.
 
 ### Struktur
 
@@ -23,7 +23,7 @@ conventional-changelog/
 
 ### 📊 [Slides](./packages/slides/)
 
-Reveal.js basierte Präsentation für das Meetup.
+Reveal.js basierte Präsentation für den Webmontag.
 
 **Quick Start:**
 ```bash
@@ -115,31 +115,9 @@ Siehe die READMEs in den jeweiligen Demo-Packages:
 - [commit-and-tag-version Demo](./packages/demos/commit-and-tag-version/README.md)
 - [release-it Demo](./packages/demos/release-it/README.md)
 
-## Demo-Workflow für Meetup
+## Demo-Workflow
 
-### Phase 1: Problem zeigen (2 min)
-- Manuelle Versionierung ist fehleranfällig
-- Changelogs vergessen oder inkonsistent
-- Release Notes Chaos
-
-### Phase 2: Conventional Commits erklären (3 min)
-```bash
-git commit -m "feat: add user authentication"
-git commit -m "fix: resolve login timeout"
-git commit -m "feat!: change API response format"
-```
-
-### Phase 3: commit-and-tag-version Demo (5 min)
-- Einfachstes Setup
-- Automatische Erkennung
-- Volle Kontrolle
-
-### Phase 4: release-it Demo (5 min)
-- Interactive Experience
-- Step-by-step Bestätigung
-- CI/CD Ready
-
-### Phase 5: Vergleich & Q&A (5 min)
+Den detaillierten Ablauf für den Webmontag findest du in [DEMO.md](./DEMO.md).
 
 ## Technologie-Stack
 
