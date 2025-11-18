@@ -68,6 +68,14 @@ Empty input to skip, 'y' to continue
 
 ### Erweiterte Features
 
+#### Weniger Fragen (nur Version)
+
+```bash
+npm run release -- --only-version
+```
+
+Interaktiver Modus, aber nur Version-Auswahl - überspringt alle anderen Prompts.
+
 #### Dry-run für Preview
 
 ```bash
