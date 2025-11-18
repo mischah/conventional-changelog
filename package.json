@@ -1,0 +1,26 @@
+{
+  "name": "conventional-changelog-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive demo and presentation for conventional changelog tools",
+  "workspaces": [
+    "packages/*",
+    "packages/demos/*"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev:slides": "npm run dev --workspace=slides",
+    "build:slides": "npm run build --workspace=slides"
+  },
+  "keywords": [
+    "conventional-changelog",
+    "conventional-commits",
+    "demo",
+    "release-it",
+    "commit-and-tag-version"
+  ],
+  "author": "",
+  "license": "MIT"
+}
