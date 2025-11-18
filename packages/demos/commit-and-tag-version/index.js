@@ -11,7 +11,7 @@
  * @param {number} b - Second number
  * @returns {number} Sum of a and b
  */
-export function add(a, b) {
+function add(a, b) {
   return a + b;
 }
 
@@ -21,7 +21,7 @@ export function add(a, b) {
  * @param {number} b - Second number
  * @returns {number} Difference of a and b
  */
-export function subtract(a, b) {
+function subtract(a, b) {
   return a - b;
 }
 
@@ -31,7 +31,7 @@ export function subtract(a, b) {
  * @param {number} b - Second number
  * @returns {number} Product of a and b
  */
-export function multiply(a, b) {
+function multiply(a, b) {
   return a * b;
 }
 
@@ -42,7 +42,7 @@ export function multiply(a, b) {
  * @returns {number} Quotient of a divided by b
  * @throws {Error} When divisor is zero
  */
-export function divide(a, b) {
+function divide(a, b) {
   if (b === 0) {
     throw new Error('Division by zero');
   }
@@ -59,18 +59,8 @@ export const calculator = {
   divide,
 };
 
-/**
- * Greets a person
- * @param {string} [name='World'] - Name to greet
- * @returns {string} Greeting message
- */
-export function greet(name = 'World') {
-  return `Hello, ${name}!`;
-}
-
 // Example usage
 if (import.meta.url === `file://${process.argv[1]}`) {
-  console.log(greet('Developer'));
   console.log('5 + 3 =', calculator.add(5, 3));
   console.log('5 - 3 =', calculator.subtract(5, 3));
   console.log('5 * 3 =', calculator.multiply(5, 3));
