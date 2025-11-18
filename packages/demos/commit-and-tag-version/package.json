@@ -15,9 +15,5 @@
   "devDependencies": {
     "commit-and-tag-version": "^12.6.0"
   },
-  "keywords": [
-    "conventional-commits",
-    "changelog",
-    "demo"
-  ]
+  "author": "michael kühnel (michael-kuehnel.de)"
 }

@@ -13,10 +13,5 @@
     "release-it": "^17.10.0",
     "@release-it/conventional-changelog": "^8.0.2"
   },
-  "keywords": [
-    "conventional-commits",
-    "changelog",
-    "release-it",
-    "demo"
-  ]
+  "author": "michael kühnel (michael-kuehnel.de)"
 }

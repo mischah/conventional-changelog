@@ -14,13 +14,6 @@
     "dev:slides": "npm run dev --workspace=slides",
     "build:slides": "npm run build --workspace=slides"
   },
-  "keywords": [
-    "conventional-changelog",
-    "conventional-commits",
-    "demo",
-    "release-it",
-    "commit-and-tag-version"
-  ],
-  "author": "",
+  "author": "michael kühnel (michael-kuehnel.de)",
   "license": "MIT"
 }
