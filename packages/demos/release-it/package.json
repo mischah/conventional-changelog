@@ -13,5 +13,8 @@
     "release-it": "^17.10.0",
     "@release-it/conventional-changelog": "^8.0.2"
   },
-  "author": "michael kühnel (michael-kuehnel.de)"
+  "author": {
+    "name": "michael kühnel",
+    "url": "https://michael-kuehnel.de"
+  }
 }

@@ -14,6 +14,9 @@
     "dev:slides": "npm run dev --workspace=slides",
     "build:slides": "npm run build --workspace=slides"
   },
-  "author": "michael kühnel (michael-kuehnel.de)",
+  "author": {
+    "name": "michael kühnel",
+    "url": "https://michael-kuehnel.de"
+  },
   "license": "MIT"
 }

@@ -15,5 +15,8 @@
   "devDependencies": {
     "commit-and-tag-version": "^12.6.0"
   },
-  "author": "michael kühnel (michael-kuehnel.de)"
+  "author": {
+    "name": "michael kühnel",
+    "url": "https://michael-kuehnel.de"
+  }
 }
