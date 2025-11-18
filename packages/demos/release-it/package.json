@@ -14,7 +14,7 @@
     "@release-it/conventional-changelog": "^8.0.2"
   },
   "author": {
-    "name": "michael kühnel",
+    "name": "Michael Kühnel",
     "url": "https://michael-kuehnel.de"
   }
 }
