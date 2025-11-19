@@ -1,0 +1,22 @@
+{
+  "name": "slides",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Reveal.js presentation for conventional changelog demo",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "reveal.js": "^5.1.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.1"
+  },
+  "author": {
+    "name": "Michael Kühnel",
+    "url": "https://michael-kuehnel.de"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "conventional-changelog-demo",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Interactive demo and presentation for conventional changelog tools",
+  "workspaces": [
+    "packages/*",
+    "packages/demos/*"
+  ],
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev:slides": "npm run dev --workspace=slides",
+    "build:slides": "npm run build --workspace=slides"
+  },
+  "author": {
+    "name": "Michael Kühnel",
+    "url": "https://michael-kuehnel.de"
+  },
+  "license": "MIT"
+}

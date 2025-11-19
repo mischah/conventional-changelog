@@ -1,0 +1,22 @@
+{
+  "name": "demo-commit-and-tag-version",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Demo for commit-and-tag-version with conventional commits",
+  "main": "index.js",
+  "scripts": {
+    "release": "commit-and-tag-version",
+    "release:patch": "commit-and-tag-version --release-as patch",
+    "release:minor": "commit-and-tag-version --release-as minor",
+    "release:major": "commit-and-tag-version --release-as major",
+    "release:first": "commit-and-tag-version --first-release",
+    "release:dry": "commit-and-tag-version --dry-run"
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^12.6.0"
+  },
+  "author": {
+    "name": "Michael Kühnel",
+    "url": "https://michael-kuehnel.de"
+  }
+}
