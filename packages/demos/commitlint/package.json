@@ -1,0 +1,22 @@
+{
+  "name": "demo-commitlint",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Demo for commitlint with Husky git hooks to enforce conventional commits",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "test:valid": "echo 'feat: add new feature' | commitlint",
+    "test:invalid": "echo 'invalid commit message' | commitlint || echo 'Commit message rejected as expected'"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7"
+  },
+  "author": {
+    "name": "Michael Kühnel",
+    "url": "https://michael-kuehnel.de"
+  }
+}
