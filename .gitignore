@@ -41,8 +41,5 @@ pnpm-debug.log*
 *.tmp
 .cache/
 
-# Generated changelogs (for demos - we want to see fresh generation)
-packages/demos/*/CHANGELOG.md
-
 # OS
 Thumbs.db

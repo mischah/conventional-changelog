@@ -28,6 +28,17 @@ npm install --workspace=demo-commitlint
 
 **Wichtig:** Husky Hooks funktionieren nur innerhalb des Git Repositories!
 
+### Husky Hook einrichten
+
+```bash
+# Husky initialisieren (erstellt .husky/ Verzeichnis)
+npm run prepare
+
+# commit-msg Hook erstellen
+echo 'npx --no -- commitlint --edit ${1}' > .husky/commit-msg
+chmod +x .husky/commit-msg
+```
+
 ## Demo-Workflow
 
 ### ✅ Gültige Commit Messages
@@ -178,9 +189,6 @@ Jede Rule hat das Format: `[level, applicable, value]`
 Der `.husky/commit-msg` Hook wird **automatisch** bei jedem Commit ausgeführt:
 
 ```bash
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
 npx --no -- commitlint --edit ${1}
 ```
 
@@ -214,8 +222,9 @@ npx --no -- commitlint --edit ${1}
 # Hooks neu installieren
 npm run prepare
 
-# Oder manuell
-npx husky install
+# Hook manuell erstellen
+echo 'npx --no -- commitlint --edit ${1}' > .husky/commit-msg
+chmod +x .husky/commit-msg
 ```
 
 ### Hooks werden übersprungen
