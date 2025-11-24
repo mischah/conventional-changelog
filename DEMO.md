@@ -1,25 +1,11 @@
-# Demo-Workflow für Webmontag
-
-## Phase 1: Problem zeigen (2 min)
-- Manuelle Versionierung ist fehleranfällig
-- Changelogs vergessen oder inkonsistent
-- Release Notes Chaos
-
-## Phase 2: Conventional Commits erklären (3 min)
-```bash
-git commit -m "feat: add user authentication"
-git commit -m "fix: resolve login timeout"
-git commit -m "feat!: change API response format"
+```
+git commit --allow-empty -m "feat(calculator): add modulo operation" && \
+git commit --allow-empty -m "fix(divide): improve error handling for negative divisors" && \
+git commit --allow-empty -m "chore: upgrade commit-and-tag-version to latest" && \
+git commit --allow-empty -m "docs(api): add usage examples to JSDoc comments" && \
+git commit --allow-empty -m "test(calculator): add unit tests for edge cases"
 ```
 
-## Phase 3: commit-and-tag-version Demo (5 min)
-- Einfachstes Setup
-- Automatische Erkennung
-- Volle Kontrolle
-
-## Phase 4: release-it Demo (5 min)
-- Interactive Experience
-- Step-by-step Bestätigung
-- CI/CD Ready
-
-## Phase 5: Vergleich & Q&A (5 min)
+```
+git reset --hard c7248b0
+```
