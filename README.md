@@ -2,6 +2,8 @@
 
 Interaktive Demo und Präsentation für Conventional Commits und automatisierte Release-Tools.
 
+Slides befinden sich im `slides` Ordner und zum durchklicken unter <https://mischah.github.io/conventional-changelog>
+
 ## Überblick
 
 Dieses Mono-Repo enthält 3 fertig konfigurierte Beispiele für automatisierte Changelog-Generierung und Commit-Validierung.
